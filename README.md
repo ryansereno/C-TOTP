@@ -14,6 +14,9 @@ gcc -o totp totp.c -lssl -lcrypto
 ./totp
 ```
 
+You will be prompted to enter your secret key;
+This should be a base32 encoded key (the code that would normally be entered into Authy/ Google Auth App) from your chosen account.
+
 #### If OpenSSL headers are missing:
 ```bash
 # Ubuntu/Debian
@@ -22,8 +25,5 @@ sudo apt-get install libssl-dev
 # macOS 
 brew install openssl
 ```
-
-You will be prompted to enter your secret key;
-This should be a base32 encoded key (the code that would normally be entered into Authy/ Google Auth App) from your chosen account.
 
 
