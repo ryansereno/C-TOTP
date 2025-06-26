@@ -1,6 +1,7 @@
 ## TOTP Generator
 
 Generate time-based one time passcodes in the command line.
+
 Followup to my [rust based TOTP generator](https://github.com/ryansereno/rust-TOTP)
 
 Based on the [RFC 6238 Standard](https://www.rfc-editor.org/rfc/rfc6238#page-9)
