@@ -9,7 +9,7 @@ Based on the [RFC 6238 Standard](https://www.rfc-editor.org/rfc/rfc6238#page-9)
 ### Usage
 
 ```bash
-gcc -o totp totp.c -lssl -lcrypto
+gcc -o totp main.c -lssl -lcrypto
 ```
 ```bash
 ./totp
